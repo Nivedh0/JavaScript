@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>js</title>
+<script language="javascript">
+function check()
+{
+var score;
+score=document.frmcheck.txtscore.value;
+if(score<50)
+alert(" The student is failed");
+else
+alert("The student is passed");
+}
+</script>
+</head>
+<body>
+<form name="frmcheck">
+Enter the score:<input type="text" name="txtscore">
+<br>
+<input type="button" value="check" onClick="check()">
+</form>
+</body>
+</html>
